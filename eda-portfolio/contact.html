@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İletişim | Eda Nur Unal</title>
+  <meta name="description" content="Eda Nur Ünal ile iletişime geçin: e-posta, sosyal medya ve iletişim formu.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      padding-top: 70px;
+    }
+    nav.navbar {
+      background-color: rgba(255,255,255,0.95);
+      backdrop-filter: blur(8px);
+    }
+    .form-control:focus {
+      box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+    }
+    footer {
+      background-color: #dee2e6;
+      padding: 30px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Eda Nur Ünal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="about.html">Hakkımda</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projeler</a></li>
+        <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">İletişim</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="container py-5">
+  <h1 class="mb-4 text-center">İletişime Geç</h1>
+  <p class="text-center">Her türlü soru, öneri veya iş birliği için bana aşağıdaki formdan veya sosyal medya hesaplarımdan ulaşabilirsiniz.</p>
+
+  <div class="row">
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Adınız</label>
+          <input type="text" class="form-control" id="name" placeholder="Adınız">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-posta</label>
+          <input type="email" class="form-control" id="email" placeholder="ornek@email.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Mesajınız</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Mesajınızı buraya yazın..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Gönder</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <div class="p-4 bg-white rounded shadow-sm">
+        <h5>İletişim Bilgilerim</h5>
+        <ul class="list-unstyled">
+          <li><strong>E-posta:</strong> <a href="mailto:edanurunal562@gmail.com">edanurunal562@gmail.com</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/itsedanur" target="_blank">github.com/itsedanur</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/eda-nur-unal-a23a07202" target="_blank">linkedin.com/in/eda-nur-unal</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Eda Nur Unal. Tüm hakları saklıdır.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
