@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Eda Nur Unal | Back End Developer & AI Explorer" />
+  <title>Ana Sayfa | Eda Nur Unal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f9f9f9, #e0eafc);
+      overflow-x: hidden;
+    }
+    header.hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      color: #6c757d;
+    }
+    .hero .btn-group {
+      margin-top: 30px;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(255,255,255,0.95);
+      backdrop-filter: blur(8px);
+      z-index: 999;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.08);
+    }
+    footer {
+      background-color: #f1f1f1;
+      padding: 30px;
+      text-align: center;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Eda Nur Ünal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="about.html">Hakkımda</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projeler</a></li>
+        <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">İletişim</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" data-aos="fade-up">
+  <h1>Merhaba, ben Eda Nur Unal</h1>
+  <p>Back End Developer • Derin Öğrenme • Java • Python • SQL • C#</p>
+  <div class="btn-group">
+    <a href="projects.html" class="btn btn-primary btn-lg">Projelerime Göz At</a>
+    <a href="about.html" class="btn btn-outline-secondary btn-lg">Hakkımda</a>
+  </div>
+</header>
+
+<footer>
+  <p>&copy; 2025 Eda Nur Unal. Tüm hakları saklıdır.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
